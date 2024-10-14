@@ -1,0 +1,30 @@
+.empty__container
+{
+    width: 60%;
+    background: #1f1e20;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.empty__container img
+{
+    filter: brightness(0.5);
+    width: 10rem;
+}
+
+.empty__container p
+{
+    margin-top: 2rem;
+    color: white;
+}
+
+@media only screen and (max-width:740px)
+{
+    .empty__container
+    {
+        display: none;
+    }
+}

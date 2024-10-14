@@ -1,0 +1,65 @@
+.userlist__container
+{
+    width: 40%;
+    max-height: 100vh;
+    min-height: 100vh;
+    background-color: #1f1e20;
+    color: white;
+    border-right: 4px solid #474648;
+}
+
+.userItem
+{
+    display: flex;
+    border-bottom: 1px solid #474648;
+    padding: 1rem 1rem 1rem 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.userItem img
+{
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+.userItem__content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.userItem__user h1
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:740px)
+{
+    .userlist__container
+    {
+        width: 100%;
+        border: none;
+    }
+
+    .userItem
+    {
+        padding: 1rem 1rem 1rem 2rem;
+    }
+
+    .userItem img
+    {
+        height: 3.5rem;
+    }
+
+    .userItem__user h1
+    {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+}

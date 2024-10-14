@@ -1,0 +1,44 @@
+.header__container
+{
+    background: #1f1e20;
+    color: white;
+    padding: 2rem 2rem;
+    border-bottom: 1px solid #474648;
+}
+
+.header__link
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.header__heading
+{
+    font-size: 2rem;
+}
+
+.header__logo
+{
+    width: 3rem;
+}
+
+@media only screen and (max-width:740px)
+{
+    .header__container
+    {
+        padding: 1rem 2rem;
+    }
+
+    .header__heading
+    {
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .header__logo
+    {
+        width: 2rem;
+    }
+}
